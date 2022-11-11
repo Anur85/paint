@@ -6,9 +6,9 @@ pixels.forEach(function (p) {
   // Вешаем событие клик
   p.addEventListener('click', function (e) {
     if (eraser.checked) {
-      e.target.style.background = 'white';
+      e.target.style.backgroundColor = 'white';
     } else {
-      e.target.style.background = chosenColorSelect.value;
+      e.target.style.backgroundColor = chosenColorSelect.value;
     }
   });
 });
